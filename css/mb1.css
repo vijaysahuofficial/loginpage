@@ -1,0 +1,59 @@
+body{
+   
+    background-image:url(../img/mbbg.jpg);
+    background-position: center;
+    background-size: 150%;
+    
+}
+.box{
+    flex-direction: column;
+    width: 100%;
+    top: 0;
+    left:0;
+   
+}
+.logo{
+    font-size: 150%;
+    text-align: center;
+}
+.left-box{
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+   }
+
+
+.wel-msg h2{
+    font-size: 200%;
+
+}
+
+
+footer a{
+    font-size: 60%;
+   }
+.right-box{
+    
+    border-top-right-radius: 0;
+   border-bottom-left-radius: 0;
+   border-bottom-right-radius: 0;
+}
+.login{
+    font-size: 150%;
+    margin-bottom: 20px;
+}
+
+.inputs{
+    position: relative;
+    text-align: center;
+    top: 15%;
+}
+.but{
+    width: 90%;
+    border-radius: 25px;
+    height: 40px;
+    border: none;
+    margin-bottom: 20px;
+    color: #fff;
+   
+}

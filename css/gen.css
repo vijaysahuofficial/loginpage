@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    height: 100vh;
+    background-image:url(../img/bg.jpg);
+    background-size: 150%;
+    background-repeat: no-repeat;
+    max-width: 2560px;
+    color: #fff;
+}
+.box{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 60%;
+    top: 10vh;
+    left: 20%;
+    min-height: 700px;
+}
+.logo{
+    font-weight: bolder;
+    font-size: 200%;
+}
+
+.left-box{
+    padding: 20px;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    background: rgba(8, 205, 231, 0.7);
+    width: 100%;
+
+}
+
+.wel-msg{
+    position: relative;    
+    text-align: center;
+    top: 25%;
+}
+.wel-msg h2{
+    font-size: 300%;
+
+}
+footer{
+    text-align: center;
+    position: relative;
+    top: 60%;
+    
+}
+
+footer a{
+    text-decoration: none;
+    font-size: 100%;
+    color: cornsilk;
+    text-transform: uppercase;
+}
+.right-box{
+    width: 100%;
+    background-color: rgba(11, 98, 197, 0.7);   
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    padding: 20px;
+
+
+}
+.login{
+    font-size: 200%;
+}
+
+.inputs{
+    position: relative;
+    text-align: center;
+    top: 15%;
+}
+.but{
+    width: 80%;
+    border-radius: 25px;
+    height: 45px;
+    border: none;
+    margin-bottom: 20px;
+    color: #fff;
+   
+}
+.continue{
+    background: linear-gradient(rgba(187, 255, 1, 0.8),rgba(212, 139, 2, 0.8));
+}
+
+.continue:hover{
+    cursor: pointer;
+
+}
+.social-p{
+margin: 30px auto;
+}
+.google{
+background-color:rgba(196, 53, 10,.7);
+cursor: pointer;
+}
+.facebook{
+background-color: rgb(9, 9, 243,.7);
+cursor: pointer;
+}
+.twitter{
+background-color: rgba(6, 188, 233,.7);
+cursor: pointer;
+}
+
+::placeholder{
+    padding: 10px;
+    text-align: center;
+}
+
+input[type=email]{
+    color: rgb(183, 19, 224);
+    padding: 15px;
+}
+input[type=password]{
+    color: blueviolet;
+    padding: 15px;
+}
+
+@media screen and (max-width: 1024px){
+    .box{
+        
+        width: 80%;
+        top: 10vh;
+        left: 10%;
+        
+    }
+}
